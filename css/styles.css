@@ -21,7 +21,7 @@ address{
 a {
     text-decoration: none;
   }
-a:hover, button:hover {
+a:hover, a:focus, button:hover {
     color: #404BBF;
 }
   
@@ -30,9 +30,7 @@ ul {
   }
 /* section header */
   .header{
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF); 
-    height:72px;
     flex-shrink: 0;
     
 }
@@ -52,22 +50,24 @@ ul {
         letter-spacing: 0.32px;
 }
 .header_nav_menu_links{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 
 }
 .header_nav_menu{
     list-style: none;
     color: var(--NAVY-BLUE, #2E2F42);
-    /* Body Medium */
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    /* 150% */
+    line-height: 1.5;
     letter-spacing: 0.32px;
-    flex-direction: row;
     align-items: center;
-    padding-top: 0;    
 }
 .site-logo{
     font-family: "Raleway", sans-serif;
@@ -84,7 +84,6 @@ ul {
 
 .slider{
     background: var(--NAVY-BLUE, #2E2F42);
-    height: 600px;
     flex-shrink: 0;
         }
 
@@ -102,9 +101,7 @@ h1{
         letter-spacing: 1.12px;
 }
 .slider_order_button{
-    border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--WHITE, #FFF);
     /* Button Text */
     font-family: Roboto;
