@@ -7,7 +7,28 @@
     --c-links-buttons-hover: #404bbf;
     --c-slate: #434455;
 }
-.header{
+
+body {
+    color: #434455;
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+}
+
+address{
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+  }
+a:hover, button:hover {
+    color: #404BBF;
+}
+  
+ul {
+    list-style-type: none;
+  }
+/* section header */
+  .header{
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF); 
     height:72px;
@@ -16,6 +37,21 @@
 }
 .header_nav{
     
+}
+.contacts{
+        list-style: none;
+        color: var(--SLATE, #434455);
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+.header_nav_menu_links{
+
 }
 .header_nav_menu{
     list-style: none;
@@ -32,58 +68,25 @@
     align-items: center;
     padding-top: 0;    
 }
-.logo1{
-    color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 21px;
-        /* 116.667% */
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-        display:flex;
-        flex-wrap: wrap;
+.site-logo{
+    font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
     }
-.logo2{
-    color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 21px;
-        /* 116.667% */
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
+.logo-studio-part{
+    color: #2e2f42;
 }
-.contacts{
-        list-style: none;
-        color: var(--SLATE, #434455);
-        /* Body */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;
-}
-a:hover, button {
-    color: #404BBF;
-}
+
 .slider{
     background: var(--NAVY-BLUE, #2E2F42);
     height: 600px;
     flex-shrink: 0;
         }
-/* Header 1 */
-font-family: Roboto;
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: 60px; /* 107.143% */
-letter-spacing: 1.12px;
-}
+
 h1{
     color: var(--WHITE, #FFF);
         text-align: center;
