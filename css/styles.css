@@ -1,0 +1,137 @@
+:root {
+    --c-bcg-navy-blue: #2e2f42;
+    --c-white: #ffffff;
+    --c-cloud: #f4f4fd;
+    --c-bgc-head: #e7e9fc;
+    --c-links-buttons-normal: #4d5ae5;
+    --c-links-buttons-hover: #404bbf;
+    --c-slate: #434455;
+}
+.header{
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF); 
+    height:72px;
+    flex-shrink: 0;
+    
+}
+.header_nav{
+    
+}
+.header_nav_menu{
+    list-style: none;
+    color: var(--NAVY-BLUE, #2E2F42);
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 0;    
+}
+.logo1{
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        display:flex;
+        flex-wrap: wrap;
+    }
+.logo2{
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+.contacts{
+        list-style: none;
+        color: var(--SLATE, #434455);
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+a:hover, button {
+    color: #404BBF;
+}
+.slider{
+    background: var(--NAVY-BLUE, #2E2F42);
+    height: 600px;
+    flex-shrink: 0;
+        }
+/* Header 1 */
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 107.143% */
+letter-spacing: 1.12px;
+}
+h1{
+    color: var(--WHITE, #FFF);
+        text-align: center;
+    
+        /* Header 1 */
+        font-family: Roboto;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        /* 107.143% */
+        letter-spacing: 1.12px;
+}
+.slider_order_button{
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE, #FFF);
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
+}
+.advantages_subheader{
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 120% */
+        letter-spacing: 0.4px;
+}
+.advantages_p{
+    color: var(--SLATE, #434455);
+    
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
