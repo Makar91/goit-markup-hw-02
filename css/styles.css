@@ -35,7 +35,7 @@ ul {
     
 }
 .header_nav{
-    
+
 }
 .contacts{
         list-style: none;
@@ -67,7 +67,6 @@ ul {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    align-items: center;
 }
 .site-logo{
     font-family: "Raleway", sans-serif;
