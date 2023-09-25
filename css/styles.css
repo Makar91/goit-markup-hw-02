@@ -96,7 +96,7 @@ h1{
         font-size: 56px;
         font-style: normal;
         font-weight: 700;
-        line-height: 60px;
+        line-height: 1.07;
         /* 107.143% */
         letter-spacing: 1.12px;
 }
@@ -104,19 +104,85 @@ h1{
     background: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
     /* Button Text */
-    font-family: Roboto;
+    font-family: "Roboto",sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.64px;
+    cursor: pointer;
+}
+.slider_order_button:hover, .slider_order_button:focus{
+    background-color: #404BBF;
+}
+.team_block{
+    background-color: #F4F4FD;
+}
+.team_block_header{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.team_block_persons{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.team_p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.portfolio_block{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.portfolio_header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.portfolio_type{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer_block{
+    background-color: #2E2F42;
+}
+.footer_logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.footer_text{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 .advantages_subheader{
     color: var(--NAVY-BLUE, #2E2F42);
     
         /* Header 3 */
-        font-family: Roboto;
+        font-family: "Roboto",sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
