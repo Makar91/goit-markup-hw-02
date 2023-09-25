@@ -130,11 +130,18 @@ h1{
     color: #2E2F42;
 }
 .team_block_persons{
+    background-color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+}
+.team_name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .team_p{
     font-size: 16px;
