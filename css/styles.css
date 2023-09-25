@@ -15,7 +15,7 @@ body {
     font-size: 16px;
 }
 
-address{
+.address_info{
     font-style: normal;
 }
 a {
@@ -81,6 +81,9 @@ ul {
     color: #2e2f42;
 }
 
+.footer_logo-studio-part{
+    color: #f4f4fd;
+}
 .slider{
     background: var(--NAVY-BLUE, #2E2F42);
     flex-shrink: 0;
